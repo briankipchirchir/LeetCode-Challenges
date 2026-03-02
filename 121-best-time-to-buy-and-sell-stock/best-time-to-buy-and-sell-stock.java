@@ -5,7 +5,7 @@ class Solution {
 
         for (int price : prices) {
             if (price < minPrice) {
-                minPrice = price;          // best day to buy so far
+                minPrice = price;      
             } else {
                 maxProfit = Math.max(maxProfit, price - minPrice);
             }
